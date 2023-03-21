@@ -80,7 +80,7 @@ medias_lst
 #' 
 #' O comando `lapply` retorna uma lista. Como este nosso exemplo é simples, 
 #' os três valores podem facilmente serem armazenados como vetor. Para tanto,
-#' experimento o commando `sapply`. Você consegue perceber a diferença?
+#' experimente o commando `sapply`. Você consegue perceber a diferença?
 #' 
 #' ## Estimação Intervalar
 #' 
@@ -90,7 +90,7 @@ medias_lst
 #' da **tabela normal**. 
 #' 
 #' O próximo passo é ter uma estimativa do desvio padrão dos preços. Podemos 
-#' fazer os cálculos manualmente através da fórmula $s^2=\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2$,
+#' fazer os cálculos manualmente através da fórmula $s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar{x})^2$,
 #' ou utilizar a função `sd`.
 #' 
 sd_precos <- sd(precos) # Manualmente seria sqrt(sum((precos - x_barra)^2)/427)
